@@ -1,13 +1,13 @@
 function Header(){
     return (
-        <div className = " bg-black h-20 text-center"> 
+        <div className = " bg-black text-center"> 
             <div className ="grid grid-cols-6 flex justify-between">
-                <h1 className = "text-xl font-semibold text-white my-10">SiG: ICE</h1>
-                <div className = "bg-white h-16 my-7 rounded-tl-xl"></div>
-                <div className = "bg-white h-16 my-7 rounded-tr-xl"></div>
-                <div className="text-white text-lg hover:text-sky-500 my-10 font-semibold">OUR LINE UP</div>
-                <div className="text-white text-lg hover:text-sky-500 my-10 font-semibold">ABOUT</div>
-                <div className="text-white text-lg hover:text-sky-500 my-10 font-semibold">CONTACT US</div>
+                <img src="src/assets/ice logo.jpg" alt="ice logo" className="w-24 p-10"/>
+                <div className = "bg-black h-0.5 my-12"></div>
+                <div className = "bg-black h-0.5 my-12"></div>
+                <div className="text-white text-lg hover:text-sky-500 my-10 font-semibold ">OUR LINE UP</div>
+                <div className="text-white text-lg hover:text-sky-500 my-10 font-semibold ">ABOUT</div>
+                <div className="text-white text-lg hover:text-sky-500 my-10 font-semibold ">CONTACT US</div>
             </div>
 
             </div>
